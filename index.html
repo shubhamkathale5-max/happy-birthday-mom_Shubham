@@ -126,6 +126,18 @@
             transform: scale(1) translateY(0);
         }
 
+        /* Mom's Photo Styling */
+        .mom-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff477e;
+            margin: 0 auto 15px auto;
+            display: block;
+            box-shadow: 0 5px 15px rgba(255, 71, 126, 0.3);
+        }
+
         .card h1 {
             color: #ff477e;
             font-size: 2.2rem;
@@ -174,6 +186,8 @@
         </div>
 
         <div class="card" id="birthdayCard">
+            <!-- If your photo is a PNG, change mom.jpg below to mom.png -->
+            <img src="mom.jpg" alt="Mom" class="mom-photo">
             <h1>Happy Birthday, Mom! ✨</h1>
             <p>Thank you for all the love, warmth, and beautiful moments you bring into our lives every single day. Wishing you a year full of joy, laughter, and endless happiness!</p>
             <div class="heart">❤️</div>
